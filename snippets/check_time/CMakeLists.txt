@@ -1,0 +1,11 @@
+add_executable(check_time_epoch epoch.cpp)
+add_executable(check_time_localtime localtime.cpp)
+add_executable(check_time_steady steady.cpp)
+add_executable(check_time_systemclock systemclock.cpp)
+add_executable(check_time_timespec timespec.cpp)
+target_link_libraries(check_time_epoch)
+target_link_libraries(check_time_localtime)
+target_link_libraries(check_time_steady)
+target_link_libraries(check_time_systemclock)
+target_link_libraries(check_time_timespec)
+
