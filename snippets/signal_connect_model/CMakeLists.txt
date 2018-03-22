@@ -1,0 +1,4 @@
+add_executable(signal_connect_model
+  signal_connect_model.cpp
+)
+target_link_libraries(signal_connect_model pthread boost_system)

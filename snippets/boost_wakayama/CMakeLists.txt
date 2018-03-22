@@ -1,0 +1,2 @@
+add_executable(wakayama_cl_rcv wakayama_cl_rcv.cpp)
+target_link_libraries(wakayama_cl_rcv boost_system pthread)

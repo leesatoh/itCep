@@ -1,0 +1,4 @@
+add_executable(thread_io_service_run thread_io_service_run.cpp)
+add_executable(multi_io_service multi_io_service.cpp)
+target_link_libraries(thread_io_service_run boost_system pthread)
+target_link_libraries(multi_io_service boost_system pthread)

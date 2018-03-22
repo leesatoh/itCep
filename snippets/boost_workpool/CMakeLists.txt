@@ -1,0 +1,4 @@
+add_executable(boost_workpool workpool.cpp)
+add_executable(boost_workpool_ret workpool_ret.cpp)
+target_link_libraries(boost_workpool  boost_system boost_thread)
+target_link_libraries(boost_workpool_ret  boost_system boost_thread)
